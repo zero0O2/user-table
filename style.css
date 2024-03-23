@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-table{
+    width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.user-table td,
+.user-table th {
+    border: 1px solid;
+    padding: 10px 5px;
+    min-width: 120px;
+}
+
+.user-table th{
+    background-color:#146551;
+    color: white;
+    border-color:#000 ;
+}
+.user-table tbody tr:nth-child(even){
+    background-color: #589a8d3a;
+}
